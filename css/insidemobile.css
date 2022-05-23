@@ -1,0 +1,96 @@
+/* @media all and (max-width: 800px) {
+
+    body {
+        display: block;
+    }
+    #presentietabel, table, tbody, tr, nav, #links, #buttons, #buttons a, .full-width {
+        max-width: 100%;
+        width: 100%;
+        font-size: 0.9em;
+        box-sizing: border-box;
+        border: none;
+    }
+    td {
+        border: none;
+    }
+    table {
+        max-width: 100vw;
+    }
+    nav, #links, #buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    #buttons {
+        align-items: stretch;
+    }
+    #links, nav, body, html {
+        height: fit-content;
+    }
+    th, img#roc-dev-logo, #rechts {
+        display: none;
+    }
+    tr {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px;
+        height: fit-content;
+    }
+    .voornaam {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .tsv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .achternaam {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 4/6;
+        grid-row: 1/2;
+    }
+    .ov {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    .github {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .klas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 4/6;
+        grid-row: 2/3;
+    }
+    .binnenkomst {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+    .vertrek {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 4/6;
+        grid-row: 3/4;
+    }
+
+
+} */

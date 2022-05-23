@@ -1,0 +1,52 @@
+* {
+    /*border: dotted 1px black;*/
+}
+
+body {
+    background: dodgerblue;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Avenir, sans-serif;
+    font-size: 20px;
+}
+
+.font_white {
+    color: white;
+}
+
+#loginform {
+    background: white;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    box-shadow: black 2px 2px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginform input {
+    background: bisque;
+    margin: 10px;
+    height: 30px;
+    width: 400px;
+    border: solid 2px dodgerblue;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#loginform #submit {
+    background: crimson;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+}
+
+img {
+    display: none;
+}
